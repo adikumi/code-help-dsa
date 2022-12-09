@@ -17,4 +17,11 @@ int i = int(c); // i = 97
 
 ## converting a number to characters.
 
-ie. convert `(int)232` to `(char)'232'`. 
+ie. convert `(int)232` to `(char)'232'`.
+
+```C++
+int i = 6;
+char c = i + '0'; // important step
+cout << c;
+// this works or 0-9.
+```
