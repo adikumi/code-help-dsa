@@ -59,3 +59,29 @@ else
 `(any_number & 1) == 0` only if the number is even.
 
 ***
+
+Power of 2 alternative method
+
+`n = 8` check if it is a power of 2.
+
+if number of set bits is equal to 1, then, the number is a power of 2.
+
+```C++
+int count = 0;
+while(n != 0)
+{
+    if (n&1 == 1)
+    {
+        coount++;
+    }
+    n = (n>>1);
+}
+if (count == 1)
+{
+    cout << "power of 2.";
+}
+else
+{
+    cout << "not power of 2";
+}
+```
