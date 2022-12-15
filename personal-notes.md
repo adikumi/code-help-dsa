@@ -60,7 +60,7 @@ else
 
 ***
 
-Power of 2 alternative method
+## Power of 2 alternative method
 
 `n = 8` check if it is a power of 2.
 
@@ -85,3 +85,60 @@ else
     cout << "not power of 2";
 }
 ```
+
+***
+
+## XOR
+
+`0 ^ x = x`
+
+`x ^ x = 0`
+
+***
+
+## Pre-defined Functions in C++
+
+min(), max(), sort(), swap()
+
+***
+
+## Binary Search Index Trick
+
+In binary search, if :
+
+`start = INT_MIN` 
+
+and
+
+`end = INT_MAX`, 
+
+then, 
+
+`mid = (start + end)/2` 
+
+will be out of range of `int` datatype in C++.
+So, we should be clever and use the following relation for `mid`. 
+```C++
+mid = (start/2 + end/2);
+
+// or
+
+mid = start + (end - start)/2
+```
+
+***
+
+## Algorithm Complexity
+
+Linear Search : `O(n)`
+
+Binary Search : `O(log n)`
+
+***
+
+Lecture-11 didn't have any programming. It talked about space and time complexity.
+
+[lecture.11 notes](lecture-11\notes.md)
+
+***
+
