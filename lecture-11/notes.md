@@ -1,6 +1,6 @@
 ## Time Complexity
 
-It is the amount of time taken by an algorithm to run as a function of the imput.
+It is the amount of time taken by an algorithm to run as a function of the input.
 
 **WHY ?**
 
@@ -21,7 +21,7 @@ Omega O : lower bound
 
 #### Notations
 
-- Constant Time : $O(n)$
+- Constant Time : $O(1)$
 - Linear Time : $O(n)$
 - Logarithmic Time : $O(log n)$
 - Quadratic Time : $O(n^2)$

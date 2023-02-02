@@ -28,6 +28,21 @@ cout << c;
 
 ***
 
+## Storing Negative numbers in C++
+
+We convertthe number to it's **2's compliment** and then store it.
+
+```C++
+// first bit = 0 ~ POSITIVE NUMBER
+// first bit = 1 ~ NEGATIVE NUMBER
+
+// 2's compliment = 1's compliment + 1.
+
+// 1's compliment is just the bits **flipped**.
+```
+
+***
+
 ## Check if a number is odd or even.
 
 For checking a number `n` is odd or even, we generally do this :

@@ -1,1 +1,1 @@
-char(c)
+int temp = 0;
