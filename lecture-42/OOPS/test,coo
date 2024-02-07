@@ -1,0 +1,59 @@
+#include <iostream>
+using namespace std;
+
+class Hero {
+  private:
+    int health;
+    string name;
+  public:
+    string getName() {
+      return name;
+    }
+    int getHealth() {
+      return health;
+    }
+    void setName(string str) {
+      name = str;
+    }
+    void setHealth(int val) {
+      health = val;
+    }
+    // constructor
+    Hero(string name = "NAME", int health = 120) {
+      cout << "custom constructor called\n";
+      this -> health = health;
+      this -> name = name;
+    }
+    // copy constructor
+    Hero(Hero &object) {
+      this -> health = object.health;
+      this -> name = object.name;
+    }
+};
+
+int main() {
+  
+  // STATIC
+  Hero ashu("AVI", 130);
+  cout << "Player Name : " << ashu.getName() << endl;
+  cout << "Player Health : " << ashu.getHealth() << endl;
+  ashu.setName("ASHU");
+  ashu.setHealth(80);
+  cout << "Player Name : " << ashu.getName() << endl;
+  cout << "Player Health : " << ashu.getHealth() << endl;
+  
+  // DYNAMIC
+  Hero* avi = new Hero("RISHU", 70);
+  cout << "Player Name : " << avi->getName() << endl;
+  cout << "Player Health : " << avi->getHealth() << endl;
+  avi->setName("AVI");
+  avi->setHealth(170);
+  cout << "Player Name : " << avi->getName() << endl;
+  cout << "Player Health : " << avi->getHealth() << endl;
+  delete avi;
+
+  // Copy Constructor
+  Hero rishu(ashu);
+  cout << "Player Name : " << rishu.getName() << endl;
+  cout << "Player Health : " << rishu.getHealth() << endl;
+}

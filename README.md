@@ -37,6 +37,8 @@ finally learning dsa.
 
 [whimsical mind-map](https://whimsical.com/dsa-4-placement-by-love-babbar-C7JX2fJ8hprv9ivEHkArjD)
 
+[Whimsical Link for C++ STL (Lecture-19)](https://whimsical.com/c-stl-XVxuHHof5GTWA4NXZhXQhx)
+
 [personal notes md file](personal-notes.md)
 
 ***

@@ -157,3 +157,16 @@ Lecture-11 didn't have any programming. It talked about space and time complexit
 
 ***
 
+## LeetCode Problems Code
+
+[LeetCode - 186. Reverse Words in a String II](https://labs.thecodehelp.in/quick-compiler/view/eZzhCx9F)
+
+***
+
+## Good Artile for Pointers
+
+[GFG - Pointers](https://www.geeksforgeeks.org/cpp-pointers/)
+
+[Character Arrays and Pointers](https://labs.thecodehelp.in/quick-compiler/view/kIFVLjjO)
+
+[Pointers and Functions](https://labs.thecodehelp.in/quick-compiler/view/p4fgb7l4)
